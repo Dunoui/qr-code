@@ -1,0 +1,57 @@
+@import "./variables";
+
+* {
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: $gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 360px;
+    margin: 0 auto;
+
+}
+
+.card {
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 17px;
+    text-align: center;
+    margin: 0 1em;
+    box-shadow: 2px 5px 20px rgb(163, 161, 161);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.text {
+    padding: 20px 0;
+}
+
+.text h2 {
+    color: $darkBlue;
+    padding-bottom: 20px;
+}
+
+.text p {
+   color: $grayishBlue;
+   padding: 0 15px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }

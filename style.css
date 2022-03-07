@@ -1,0 +1,89 @@
+/* outfit-regular - latin */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/outfit-v4-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/outfit-v4-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/outfit-v4-latin-regular.woff2") format("woff2"), url("../fonts/outfit-v4-latin-regular.woff") format("woff"), url("../fonts/outfit-v4-latin-regular.ttf") format("truetype"), url("../fonts/outfit-v4-latin-regular.svg#Outfit") format("svg");
+  /* Legacy iOS */
+}
+
+/* outfit-700 - latin */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/outfit-v4-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/outfit-v4-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/outfit-v4-latin-700.woff2") format("woff2"), url("../fonts/outfit-v4-latin-700.woff") format("woff"), url("../fonts/outfit-v4-latin-700.ttf") format("truetype"), url("../fonts/outfit-v4-latin-700.svg#Outfit") format("svg");
+  /* Legacy iOS */
+}
+
+* {
+  margin: 0;
+  bottom: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #d6e2f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  padding: 18px;
+  border-radius: 17px;
+  text-align: center;
+  margin: 0 1em;
+  -webkit-box-shadow: 2px 5px 20px #a3a1a1;
+          box-shadow: 2px 5px 20px #a3a1a1;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.text {
+  padding: 20px 0;
+}
+
+.text h2 {
+  color: #1f3251;
+  padding-bottom: 20px;
+}
+
+.text p {
+  color: #7b879d;
+  padding: 0 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
